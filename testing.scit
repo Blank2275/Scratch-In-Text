@@ -1,0 +1,14 @@
+
+OnFlagClicked {
+    goTo (0, 0);
+    repeat (100) {//move down and to the right 100 times
+        if (xPosition % 2 == 0) {
+            changeX (1);
+        }
+        else {
+            changeX (1);
+            changeY (-1);
+        }
+    }
+    say ("Hello!", 2);
+}
